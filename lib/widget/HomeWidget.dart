@@ -54,7 +54,8 @@ class _HomeWidgetState extends State<HomeWidget> {
         InkWell(
           onTap: _launchUrl,
           child: const TextWithIcon(
-              iconData: Icons.language, textData: "https://github.com/fabienallade"),
+              iconData: Icons.language,
+              textData: "https://github.com/fabienallade"),
         )
       ],
     );
